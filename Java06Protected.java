@@ -1,10 +1,10 @@
-public class Java04Protected {
+public class Java06Protected {
     /*
      * Metodos e atributos "protected" só podem ser usados dentro do mesmo pacote.
      */
     protected String test;
 
-    public Java04Protected() {
+    public Java06Protected() {
         this.test = "Passou";
     }
 }

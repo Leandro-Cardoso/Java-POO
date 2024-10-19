@@ -1,4 +1,4 @@
-public class Java02VarArgs {
+public class Java04VarArgs {
     public static int sumNums(int... nums) {
         int sum = 0;
 
@@ -14,7 +14,7 @@ public class Java02VarArgs {
          * E possivel tambem passar varios agumentos como parametro de um metodo, sem necessariamente passar uma lista.
          */
 
-        int sum = Java02VarArgs.sumNums(5, 10, 20, 15);
+        int sum = Java04VarArgs.sumNums(5, 10, 20, 15);
 
         System.out.println("\n Soma: " + sum + "\n");
     }

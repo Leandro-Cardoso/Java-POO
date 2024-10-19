@@ -1,4 +1,4 @@
-public class Java06Sobrecarga {
+public class Java01Sobrecarga {
     public void createDice(int sides) {
         if (sides < 4) {
             System.out.println("\n Nao existe dado com menos de 4 lados !!!\n");
@@ -17,7 +17,7 @@ public class Java06Sobrecarga {
          * Voce pode criar tambem 2 metodos com o mesmo nome porem com quantidade de parametros diferentes caso necessario.
          */
 
-        Java06Sobrecarga test = new Java06Sobrecarga();
+        Java01Sobrecarga test = new Java01Sobrecarga();
 
         test.createDice();
         test.createDice(20);
