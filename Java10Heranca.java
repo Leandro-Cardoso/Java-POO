@@ -1,4 +1,4 @@
-public class Java14Heranca {
+public class Java10Heranca {
     public static void main(String[] args) {
         /*
          * Herança de classe.
