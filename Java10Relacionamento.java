@@ -1,4 +1,4 @@
-public class Java09Relacionamento {
+public class Java10Relacionamento {
     public static void main(String[] args) {
         /*
          * Exemplo pratico:
@@ -35,7 +35,6 @@ class Creature {
 
     @Override
     public String toString() {
-        super.toString();
         return "\n Nome: " + this.name + "\n Vida: " + this.life + "\n";
     }
 

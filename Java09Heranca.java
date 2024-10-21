@@ -1,8 +1,10 @@
-public class Java10Heranca {
+public class Java09Heranca {
     public static void main(String[] args) {
         /*
          * Herança de classe.
+         * A classe filho herda todos os atributos e metodos da classe mae (ou super class).
          */
+        
         Human human1 = new Human("Humana", 35, true, "Leandro", "Cardoso");
         System.out.println(human1.str());
 

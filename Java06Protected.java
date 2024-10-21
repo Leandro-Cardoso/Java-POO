@@ -1,6 +1,6 @@
 public class Java06Protected {
     /*
-     * Metodos e atributos "protected" só podem ser usados dentro do mesmo pacote.
+     * Metodos e atributos "protected" só podem ser usados dentro do mesmo pacote, ou atravez de uma classe filha em qualquer pacote.
      */
     protected String test;
 
